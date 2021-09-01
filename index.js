@@ -59,6 +59,26 @@ client.on("message", (message) => {
     if (!message.content.endsWith("quoi?") || message.author.bot) return;
       message.channel.send("feur !");
   });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Kwa?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("kwa") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("kwa ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("kwa?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
   
 const init = async() => {
     const languages = require("./helpers/languages");
