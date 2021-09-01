@@ -13,7 +13,7 @@ for (const file of commandFiles) {
     client.commands.set(command.name, command);
 }
 
-client.login('process.env.CLIENT_TOKEN')
+client.login(process.env.CLIENT_TOKEN)
 
 client.on('debug', (info) => {
     console.log(info);
