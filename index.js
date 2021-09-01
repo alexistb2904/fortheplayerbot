@@ -13,7 +13,7 @@ for (const file of commandFiles) {
     client.commands.set(command.name, command);
 }
 
-client.login('ODgyNTQ4MTQ5NDg1NDU3NDM4.YS8_Aw.93jr_BCJim-9K8xkoROA5umm50k')
+client.login('')
 
 client.on('debug', (info) => {
     console.log(info);
