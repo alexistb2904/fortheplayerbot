@@ -79,7 +79,247 @@ client.on("message", (message) => {
     if (!message.content.endsWith("kwa?") || message.author.bot) return;
       message.channel.send("feur !");
   });
-  
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("quea") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("quea ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("quea?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Quea") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Quea ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Quea?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("queuea?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("queuea") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("queuea ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Queuea ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Queuea") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Queuea ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("koi?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("koi") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("koi ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("koua?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("koua") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("koua ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("keua?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("keua") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("keua ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("nani?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("nani") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("nani ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("qwa?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("qwa") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("qwa ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("coua?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("coua") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("coua ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Koi?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Koi") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Koi ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Koua?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Koua") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Koua ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Keua?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Keua") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Keua ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Nani?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Nani") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Nani ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Qwa?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Qwa") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Qwa ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Coua?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Coua") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("Coua ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
 const init = async() => {
     const languages = require("./helpers/languages");
     client.translations = await languages();
