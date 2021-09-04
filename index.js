@@ -356,6 +356,11 @@ client.on("message", (message) => {
       message.channel.send("feur !");
   });
 
+client.on("message", (message) => {
+    if (!message.content.endsWith.includes("lol") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
 const init = async() => {
     const languages = require("./helpers/languages");
     client.translations = await languages();
