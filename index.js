@@ -320,6 +320,42 @@ client.on("message", (message) => {
       message.channel.send("feur !");
   });
 
+client.on("message", (message) => {
+    if (!message.content.endsWith("koa") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("what") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("what?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("what ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("What") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("What?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
+    if (!message.content.endsWith("What ?") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
 const init = async() => {
     const languages = require("./helpers/languages");
     client.translations = await languages();
