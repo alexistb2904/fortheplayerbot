@@ -6,8 +6,6 @@ const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const cooldowns = new Discord.Collection();
 
-const quoi = ['lol', 'injure2', 'injure3'];
-
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles) {
@@ -355,11 +353,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     if (!message.content.endsWith("What ?") || message.author.bot) return;
-      message.channel.send("feur !");
-  });
-
-client.on("message", (message) => {
-    if (!message.content.endsWith(quoi) || message.author.bot) return;
       message.channel.send("feur !");
   });
 
