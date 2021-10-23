@@ -31,6 +31,11 @@ client.on('ready', () => {
 });
 
 client.on("message", (message) => {
+    if (!message.content.toLowerCase().endsWith("test") || message.author.bot) return;
+      message.channel.send("feur !");
+  });
+
+client.on("message", (message) => {
     if (!message.content.endsWith("Quoi") || message.author.bot) return;
       message.channel.send("feur !");
   });
