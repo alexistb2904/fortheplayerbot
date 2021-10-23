@@ -31,19 +31,20 @@ client.on('ready', () => {
 });
 
 client.on("message", (message) => {
-    if (!message.content.toLowerCase().endsWith("quoi ?") || message.author.bot) return;
+    if (!message.content.toLowerCase().endsWith("quoi ?").toLowerCase() || message.author.bot) return;
       message.channel.send("feur !");
   });
 
 client.on("message", (message) => {
-    if (!message.content.toLowerCase().endsWith("quoi?") || message.author.bot) return;
+    if (!message.content.toLowerCase().endsWith("quoi?").toLowerCase() || message.author.bot) return;
       message.channel.send("feur !");
   });
 
 client.on("message", (message) => {
-    if (!message.content.toLowerCase().endsWith("quoi") || message.author.bot) return;
+    if (!message.content.endsWith("quoi").toLowerCase() || message.author.bot) return;
       message.channel.send("feur !");
   });
+
 
 client.on("message", (message) => {
     if (!message.content.toLowerCase().endsWith("kwa?") || message.author.bot) return;
